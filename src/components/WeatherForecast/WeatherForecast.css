@@ -1,0 +1,27 @@
+body {
+  background-color: #1f1f1f;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+section .weather {
+  color: #ffffff;
+  border: 1px solid #ccc;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.weather span {
+  font-weight: bold;
+}
